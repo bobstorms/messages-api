@@ -4,6 +4,7 @@ const port = 3000;
 const routerMessages = require("./routers/api/v1/messages");
 const pug = require('pug');
 
+// Set view engine
 app.set('view engine', 'pug');
 
 app.get('/', (req, res) => {
