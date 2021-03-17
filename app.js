@@ -16,6 +16,6 @@ app.get('/', (req, res) => {
 
 app.use("/api/v1/messages", routerMessages);
 
-app.listen(port, () => {
+app.listen(PORT, () => {
   console.log(`Example app listening at http://localhost:${port}`);
 });
